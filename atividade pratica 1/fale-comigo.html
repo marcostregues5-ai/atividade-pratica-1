@@ -1,0 +1,72 @@
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Contato</title>
+
+</head>
+
+<body>
+
+<h1>Formulario de Contato</h1>
+
+<form action="sucesso.html">
+
+<label>Nome:</label> <br>
+<input type="text" name="nome" required><br>
+
+<br>
+
+<label>E-mail:</label> <br>
+<input type="email" name="email" required><br>
+
+<br>
+
+<label>Assunto:</label> <br>
+<input type="text" name="assunto" required> <br>
+
+<br>
+
+<label>Mensagem:</label> <br>
+<textarea name="mensagem" required></textarea> <br>
+
+<br>
+
+<label>Telefone:</label> <br>
+<input type="tel" name="telefone" pattern="\d+" inputmode="numeric" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+
+<br>
+
+<label>Data de contato:</label> <br>
+<input type="date" name="data">
+
+<br>
+
+<br>
+
+<label>Como conheceu meu site?</label> <br>
+<select name="origem">
+<option>Internet</option>
+<option>Instagram</option>
+<option>Amigos</option>
+<option>Outros</option>
+</select>
+
+<br>
+
+
+<br>
+
+
+<input type="reset" value="Limpar">
+<input type="submit" value="Enviar">
+
+</form>
+
+<br>
+
+<a href="Formulario.html">Voltar para pagina inicial</a>
+
+</body>
+</html>
